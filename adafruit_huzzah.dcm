@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Adafruit_Huzzah
+D Breakout board
+K esp8266
+$ENDCMP
+#
+#End Doc Library

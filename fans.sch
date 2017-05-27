@@ -1,0 +1,410 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:adafruit_huzzah
+LIBS:LD1117AV33
+LIBS:fans-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BC549 Q1
+U 1 1 5924289D
+P 5650 2850
+F 0 "Q1" H 5850 2925 50  0000 L CNN
+F 1 "BC549" H 5850 2850 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5850 2775 50  0001 L CIN
+F 3 "" H 5650 2850 50  0001 L CNN
+	1    5650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC549 Q3
+U 1 1 592428C3
+P 7250 2850
+F 0 "Q3" H 7450 2925 50  0000 L CNN
+F 1 "BC549" H 7450 2850 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 7450 2775 50  0001 L CIN
+F 3 "" H 7250 2850 50  0001 L CNN
+	1    7250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC549 Q2
+U 1 1 592428F9
+P 6450 2850
+F 0 "Q2" H 6650 2925 50  0000 L CNN
+F 1 "BC549" H 6650 2850 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 6650 2775 50  0001 L CIN
+F 3 "" H 6450 2850 50  0001 L CNN
+	1    6450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R M1
+U 1 1 59242932
+P 5600 2150
+F 0 "M1" V 5680 2150 50  0000 C CNN
+F 1 "300" V 5600 2150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" V 5530 2150 50  0001 C CNN
+F 3 "" H 5600 2150 50  0001 C CNN
+	1    5600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR01
+U 1 1 59242A2C
+P 6550 1450
+F 0 "#PWR01" H 6550 1300 50  0001 C CNN
+F 1 "+12V" H 6550 1590 50  0000 C CNN
+F 2 "" H 6550 1450 50  0001 C CNN
+F 3 "" H 6550 1450 50  0001 C CNN
+	1    6550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 59242A50
+P 6550 3650
+F 0 "#PWR02" H 6550 3400 50  0001 C CNN
+F 1 "GND" H 6550 3500 50  0000 C CNN
+F 2 "" H 6550 3650 50  0001 C CNN
+F 3 "" H 6550 3650 50  0001 C CNN
+	1    6550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR03
+U 1 1 59242A74
+P 3850 1700
+F 0 "#PWR03" H 3850 1550 50  0001 C CNN
+F 1 "+3.3V" H 3850 1840 50  0000 C CNN
+F 2 "" H 3850 1700 50  0001 C CNN
+F 3 "" H 3850 1700 50  0001 C CNN
+	1    3850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 59242A98
+P 5000 3150
+F 0 "R2" V 5080 3150 50  0000 C CNN
+F 1 "860" V 5000 3150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 4930 3150 50  0001 C CNN
+F 3 "" H 5000 3150 50  0001 C CNN
+	1    5000 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 59242AEF
+P 5000 3450
+F 0 "R3" V 5080 3450 50  0000 C CNN
+F 1 "860" V 5000 3450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 4930 3450 50  0001 C CNN
+F 3 "" H 5000 3450 50  0001 C CNN
+	1    5000 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 59242B31
+P 5000 2850
+F 0 "R1" V 5080 2850 50  0000 C CNN
+F 1 "860" V 5000 2850 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 4930 2850 50  0001 C CNN
+F 3 "" H 5000 2850 50  0001 C CNN
+	1    5000 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L D D1
+U 1 1 59242B6F
+P 5900 1950
+F 0 "D1" H 5900 2050 50  0000 C CNN
+F 1 "D" H 5900 1850 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-27_P12.70mm_Horizontal" H 5900 1950 50  0001 C CNN
+F 3 "" H 5900 1950 50  0001 C CNN
+	1    5900 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 59242D79
+P 5900 2300
+F 0 "R4" V 5980 2300 50  0000 C CNN
+F 1 "100" V 5900 2300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 5830 2300 50  0001 C CNN
+F 3 "" H 5900 2300 50  0001 C CNN
+	1    5900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1800 5900 1700
+Wire Wire Line
+	5900 1700 5600 1700
+Wire Wire Line
+	5600 1700 5600 2000
+Wire Wire Line
+	5900 2450 5900 2550
+Wire Wire Line
+	5900 2550 5600 2550
+Wire Wire Line
+	5600 2550 5600 2300
+Wire Wire Line
+	5750 2650 5750 2550
+Connection ~ 5750 2550
+Wire Wire Line
+	5750 1700 5750 1550
+Connection ~ 5750 1700
+Wire Wire Line
+	5450 2850 5150 2850
+Wire Wire Line
+	5150 3150 6200 3150
+Wire Wire Line
+	6200 3150 6200 2850
+Wire Wire Line
+	6200 2850 6250 2850
+Wire Wire Line
+	7050 2850 7000 2850
+Wire Wire Line
+	7000 2850 7000 3450
+Wire Wire Line
+	7000 3450 5150 3450
+Wire Wire Line
+	5750 3050 5750 3600
+Wire Wire Line
+	3300 3600 7350 3600
+Wire Wire Line
+	6550 3050 6550 3650
+Wire Wire Line
+	7350 3600 7350 3050
+Connection ~ 6550 3600
+$Comp
+L R M2
+U 1 1 59243560
+P 6400 2150
+F 0 "M2" V 6480 2150 50  0000 C CNN
+F 1 "300" V 6400 2150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" V 6330 2150 50  0001 C CNN
+F 3 "" H 6400 2150 50  0001 C CNN
+	1    6400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D2
+U 1 1 59243566
+P 6700 1950
+F 0 "D2" H 6700 2050 50  0000 C CNN
+F 1 "D" H 6700 1850 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-27_P12.70mm_Horizontal" H 6700 1950 50  0001 C CNN
+F 3 "" H 6700 1950 50  0001 C CNN
+	1    6700 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5924356C
+P 6700 2300
+F 0 "R5" V 6780 2300 50  0000 C CNN
+F 1 "100" V 6700 2300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 6630 2300 50  0001 C CNN
+F 3 "" H 6700 2300 50  0001 C CNN
+	1    6700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 1800 6700 1700
+Wire Wire Line
+	6700 1700 6400 1700
+Wire Wire Line
+	6400 1700 6400 2000
+Wire Wire Line
+	6700 2450 6700 2550
+Wire Wire Line
+	6700 2550 6400 2550
+Wire Wire Line
+	6400 2550 6400 2300
+Wire Wire Line
+	6550 2650 6550 2550
+Connection ~ 6550 2550
+Connection ~ 6550 1700
+$Comp
+L R M3
+U 1 1 59243646
+P 7200 2150
+F 0 "M3" V 7280 2150 50  0000 C CNN
+F 1 "300" V 7200 2150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" V 7130 2150 50  0001 C CNN
+F 3 "" H 7200 2150 50  0001 C CNN
+	1    7200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D3
+U 1 1 5924364C
+P 7500 1950
+F 0 "D3" H 7500 2050 50  0000 C CNN
+F 1 "D" H 7500 1850 50  0000 C CNN
+F 2 "Diodes_THT:D_DO-27_P12.70mm_Horizontal" H 7500 1950 50  0001 C CNN
+F 3 "" H 7500 1950 50  0001 C CNN
+	1    7500 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 59243652
+P 7500 2300
+F 0 "R6" V 7580 2300 50  0000 C CNN
+F 1 "100" V 7500 2300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" V 7430 2300 50  0001 C CNN
+F 3 "" H 7500 2300 50  0001 C CNN
+	1    7500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1800 7500 1700
+Wire Wire Line
+	7500 1700 7200 1700
+Wire Wire Line
+	7200 1700 7200 2000
+Wire Wire Line
+	7500 2450 7500 2550
+Wire Wire Line
+	7500 2550 7200 2550
+Wire Wire Line
+	7200 2550 7200 2300
+Wire Wire Line
+	7350 2650 7350 2550
+Connection ~ 7350 2550
+Wire Wire Line
+	7350 1550 7350 1700
+Connection ~ 7350 1700
+Connection ~ 5750 1550
+Wire Wire Line
+	5300 2000 5400 2000
+Wire Wire Line
+	5400 2000 5400 1550
+Connection ~ 5400 1550
+Wire Wire Line
+	5400 1550 7350 1550
+Wire Wire Line
+	6550 1450 6550 1700
+Connection ~ 6550 1550
+Wire Wire Line
+	3300 2000 3300 3050
+Wire Wire Line
+	3300 3050 3500 3050
+Wire Wire Line
+	4600 3600 4600 3250
+Wire Wire Line
+	4600 3250 4500 3250
+Connection ~ 5750 3600
+Wire Wire Line
+	3300 3600 3300 3250
+Wire Wire Line
+	3300 3250 3500 3250
+Connection ~ 4600 3600
+Wire Wire Line
+	5900 2100 5900 2150
+Wire Wire Line
+	6700 2100 6700 2150
+Wire Wire Line
+	7500 2100 7500 2150
+Wire Wire Line
+	4850 2850 4800 2850
+Wire Wire Line
+	4800 2850 4800 2750
+Wire Wire Line
+	4800 2750 4500 2750
+Wire Wire Line
+	4850 3150 4750 3150
+Wire Wire Line
+	4750 3150 4750 2850
+Wire Wire Line
+	4750 2850 4500 2850
+$Comp
+L Adafruit_Huzzah U1
+U 1 1 5924438A
+P 4000 2800
+F 0 "U1" H 4000 3350 50  0000 C CNN
+F 1 "Adafruit_Huzzah" V 4000 2850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_2x10_Pitch2.54mm" H 4000 1600 50  0001 C CNN
+F 3 "" H 4000 1600 50  0001 C CNN
+	1    4000 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3450 4700 3450
+Wire Wire Line
+	4700 3450 4700 2950
+Wire Wire Line
+	4700 2950 4500 2950
+$Comp
+L GND #PWR04
+U 1 1 59257440
+P 4900 1550
+F 0 "#PWR04" H 4900 1300 50  0001 C CNN
+F 1 "GND" H 4900 1400 50  0000 C CNN
+F 2 "" H 4900 1550 50  0001 C CNN
+F 3 "" H 4900 1550 50  0001 C CNN
+	1    4900 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 1550 4900 1700
+Wire Wire Line
+	3850 1700 3850 2000
+Connection ~ 3850 2000
+Wire Wire Line
+	3300 2000 4500 2000
+$Comp
+L LD1117AV33 U2
+U 1 1 5925744A
+P 4900 1950
+F 0 "U2" H 4900 2200 50  0000 C CNN
+F 1 "LD1117AV33" H 4900 2150 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 4900 2050 50  0001 C CNN
+F 3 "" H 4900 1950 50  0001 C CNN
+	1    4900 1950
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
